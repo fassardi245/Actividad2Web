@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h3>¿Te llamamos?</h3>
+        </div>
+        <div>
+            <div>
+                <figure class="form-content-header-img">
+                    <img src="https://www.clarin.com/landings/bundles/landing/img/components/form/callcenter.png?65b8340">
+                </figure>
+                <p>Dejanos tus datos y te contactaremos para ayudarte con la suscripción.</p>
+            </div>
+            <form action="/form" method="get">
+                <label for="Nombre">
+                    Nombre*
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+                </label>
+                <label for="Apellido">
+                    Apellido*
+                    <input type="text" name="Apellido" id="Apellido" placeholder="Apellido" required>
+                </label>
+                <label for="email">
+                    E-mail*
+                    <input type="Email" name="email" id="email" placeholder="Email" required>
+                </label>
+                <label for="Telefono">Celular de contacto*
+                    <input type="tel" name="Telefono" id="Telefono" maxlength="10" placeholder="Ej. 1130450000" required>
+                </label>
+                <label for="Documento">Numero de documento*</label>
+                <div>
+                    <select id="Documento" name="Documento" required>
+                        <option value="DNI">DNI</option>
+                        <option value="LC">LC</option>
+                        <option value="LE">LE</option>
+                    </select>
+                    <input type="tel" name="Documento" id="Documento" placeholder="Número de Documento" maxlength="8" required>
+                </div>
+                    <label for="Genero">Género*
+                        <select id="Genero" name="Genero" required>
+                            <option value="">Seleccionar género</option>
+                            <option value="1">Femenino</option>
+                            <option value="2">Masculino</option>
+                        </select>
+                    </label>
+                <label>
+                    <br>
+                    ¿Qué oferta te interesa?
+                    <section>
+                        <ul>
+                            <li>
+                                <input id="oferta0" type="radio" name="oferta" value="Digital 365 365 mensual $244">
+                                <label for="oferta0">Digital 365 365 mensual $244</label>
+                            </li>
+                            <li>
+                                <input id="oferta1" type="radio" name="oferta" value="Digital mensual $204">
+                                <label for="oferta1">Digital  mensual $204</label>
+                            </li>
+                            <li>
+                                <input id="oferta2" type="radio" name="oferta" value="Digital 365 Plus 365 mensual $274">
+                                <label for="oferta2">Digital 365 Plus 365 mensual $274</label>
+                            </li>
+                            <li>
+                                <input id="oferta3" type="radio" name="oferta" value="Digital Anual $19.200">
+                                <label for="oferta3">Digital Anual $19.200</label>
+                            </li>
+                        </ul>
+                    </section>
+                </label>
+                <b>Te contactaremos a la brevedad.</b>
+                <p>*campos obligatorios</p>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
