@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div id="form_completo">
         <div>
-            <h3>¿Te llamamos?</h3>
+            <h3 class="parte_arriba">¿Te llamamos?</h3>
         </div>
         <div>
             <div>
-                <figure class="form-content-header-img">
-                    <img src="https://www.clarin.com/landings/bundles/landing/img/components/form/callcenter.png?65b8340">
+                <figure>
+                    <img class="parte_arriba" src="https://www.clarin.com/landings/bundles/landing/img/components/form/callcenter.png?65b8340">
                 </figure>
-                <p>Dejanos tus datos y te contactaremos para ayudarte con la suscripción.</p>
+                <p class="parte_arriba">Dejanos tus datos y te contactaremos para ayudarte con la suscripción.</p>
             </div>
-            <form action="/form" method="get">
+            <form class="formulario1" action="/form" method="get">
                 <label for="Nombre">
                     Nombre*
                     <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
@@ -35,12 +36,12 @@
                 </label>
                 <label for="Documento">Numero de documento*</label>
                 <div>
-                    <select id="Documento" name="Documento" required>
+                    <select id="tipo_doc" name="tipo_doc" required>
                         <option value="DNI">DNI</option>
                         <option value="LC">LC</option>
                         <option value="LE">LE</option>
                     </select>
-                    <input type="tel" name="Documento" id="Documento" placeholder="Número de Documento" maxlength="8" required>
+                    <input type="tel" name="num_doc" id="num_doc" placeholder="Número de Documento" maxlength="8" required>
                 </div>
                     <label for="Genero">Género*
                         <select id="Genero" name="Genero" required>
@@ -52,7 +53,7 @@
                 <label>
                     <br>
                     ¿Qué oferta te interesa?
-                    <section>
+                    <section class="ofertasss">
                         <ul>
                             <li>
                                 <input id="oferta0" type="radio" name="oferta" value="Digital 365 365 mensual $244">
@@ -73,10 +74,12 @@
                         </ul>
                     </section>
                 </label>
-                <b>Te contactaremos a la brevedad.</b>
-                <p>*campos obligatorios</p>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
+                <b class="parte_abajo">Te contactaremos a la brevedad</b>
+                <p class="parte_abajo"><b>*</b>campos obligatorios</p>
+                <div class="botones_suscribite">
+                <button class="suscribite_botton" type="submit">Submit</button>
+                <button class="suscribite_botton" type="reset">Reset</button>
+                </div>
             </form>
         </div>
     </div>

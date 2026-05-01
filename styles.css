@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+.Clarin{
+    color: #e30613;
+    font-size: 60px;
+    font-weight: 900;
+}
+header {
+    text-align: left; 
+    padding-left: 50px;
+    padding-top: 20px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px 50px;
+    background: #f4f4f4;
+    font-size: 13px;
+    color: #666;
+}
+main{
+    max-width: 680px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px; 
+    margin-right: auto; 
+    padding: 0 20px;
+}
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+main ul {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+main ul li {
+    font-size: 19px;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+main span {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+main p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+}
+
+.suscribite_botton{
+    border: 1.5px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+}
+.suscribite_botton:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+.botones_suscribite{
+    display: flex;       
+    gap: 15px;          
+    justify-content: center;
+    width: 100%;
+}
+.formulario1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;        
+    max-width: 700px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.formulario1 label{
+    width: 45%; 
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: bold;
+}
+.formulario1 input, 
+.formulario1 select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+#masche_img{
+    width: 1256px;
+    height: 620px;
+}
+#fotodiario{
+    height: 300px;
+    width: 200px;
+}
+footer{
+    padding: 40px 50px;
+    margin-top: 50px;
+    gap: 40px;
+}
+footer span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+footer .suscribite_botton{
+    width: 174px;
+    height: 44px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+
+main .suscribite_botton{
+    border: 1px solid black;
+    width: 250px;
+    height: 44px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px; 
+    margin: 10px 10px 20px 10px;
+    font-weight: 600;
+}
+
+.parte_arriba{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+.ofertasss{
+    width: 100%;
+    margin-top: 10px;
+}
+.ofertasss ul {
+    list-style: none;
+}
+
+.ofertasss li {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px; 
+}
+
+.ofertasss label {
+    width: auto;
+    font-weight: normal; 
+    margin-left: 10px; 
+    cursor: pointer;
+}
+#form_completo{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;  
+    border-radius: 10px;   
+    padding: 30px;
+}
+.parte_abajo{
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+}
