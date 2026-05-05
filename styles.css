@@ -15,15 +15,15 @@ body{
 }
 header {
     text-align: left; 
-    padding-left: 50px;
     padding-top: 20px;
+    margin-left: 260px;
 }
 header ul {
     list-style: none;
     display: flex;
     justify-content: flex-start;
     gap: 15px;
-    padding: 10px 50px;
+    padding: 10px 70px;
     background: #f4f4f4;
     font-size: 13px;
     color: #666;
@@ -32,7 +32,7 @@ main{
     max-width: 680px; 
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 50px; 
+    margin-left: 310px;
     margin-right: auto; 
     padding: 0 20px;
 }
@@ -129,6 +129,7 @@ footer{
     padding: 40px 50px;
     margin-top: 50px;
     gap: 40px;
+    margin-left: 260px;
 }
 footer span {
     display: block;
@@ -210,14 +211,22 @@ main .suscribite_botton{
 }
 
 .seccion-titulo{
+    display: inline-block; 
+    margin-top: 12px;
     color: #000;
     font-size: 24px;
     font-weight: 900;
     text-decoration: none;
+    padding-left: 70px;
+    padding-top: 20px;
+    border-bottom: 1px solid #eee;
 }
 .linksmenu{
     text-decoration: none;
-    color: #000;
+    color: rgb(85, 85, 85);
+    font-family: ClarinvarVF;
+    font-size: 16px;
+    font-weight: bold;
 }
 .tagsRelacionados{
     border: grey solid 1px;
@@ -292,4 +301,49 @@ footer ul li {
 .columna-diario {
     text-align: center;
     min-width: 200px;
+}
+
+.sidebar{
+    width: 260px;
+    height: 100vh;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    background-color: #eee;
+    border-right: 1px solid #eee;
+    overflow-y: auto; 
+    z-index: 1000;
+    padding: 20px 0;
+}
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 20px;
+    gap: 15px;
+}
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.sidebar ul li:hover {
+    background-color: #ddd;
+    color: #e30613; 
 }
