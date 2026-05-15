@@ -396,6 +396,9 @@ footer ul li {
     .header-top{
         gap: 10px;
     }
+    main {
+        padding: 10px;
+    }
     .Contenido {
         width: 100%;
     }
