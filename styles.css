@@ -431,3 +431,27 @@ footer ul li {
         width: 100%;
     }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sidebar {
+        width: 200px;     
+        min-width: 200px;
+    }
+
+    .sidebar ul li {
+        padding: 15px;    
+        font-size: 13px;
+    }
+
+    .Contenido {
+        width: calc(100% - 200px); 
+    }
+
+    main {
+        max-width: 90%;    
+        margin: 0 auto;
+    }
+
+    .Clarin {
+        font-size: 50px;  
+    }
+}
